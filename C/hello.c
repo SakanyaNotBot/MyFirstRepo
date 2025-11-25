@@ -3,9 +3,9 @@
 void greet() 
 {
     printf("Greetings from sakanya!\n");
-}void loveNW();
-
-void loveNW() {
+}
+void loveNW() 
+{
     printf("I love NW forever!\n");
 }
 
