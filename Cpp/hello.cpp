@@ -1,6 +1,5 @@
 #include <iostream>
-void greet();
-
+#include "header/hello.h"
 void greet() 
 {
     std::cout << "Greetings from sakanya!\n" << std::endl;
@@ -8,5 +7,6 @@ void greet()
 int main() 
 {
     std::cout << "Hello World" << std::endl;
+    greet();
     return 0;
 }

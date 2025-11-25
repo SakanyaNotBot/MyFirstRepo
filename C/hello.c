@@ -1,6 +1,5 @@
 #include <stdio.h>
-void greet();
-
+#include "header/hello.h"
 void greet() 
 {
     printf("Greetings from sakanya!\n");
@@ -8,5 +7,6 @@ void greet()
 int main() 
 {
     printf("Hello World\n");
+    greet();
     return 0;
 }
