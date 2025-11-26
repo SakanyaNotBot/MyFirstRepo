@@ -1,12 +1,18 @@
 #include <stdio.h>
-void loveNW();
-
-void loveNW() {
+#include "header/hello.h"
+void greet() 
+{
+    printf("Greetings from sakanya!\n");
+}
+void loveNW() 
+{
     printf("I love NW forever!\n");
 }
 
-int main() {
+int main() 
+{
     printf("Hello World\n");
+    greet();
     loveNW();
     return 0;
 }
